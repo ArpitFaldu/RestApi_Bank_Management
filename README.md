@@ -1,16 +1,17 @@
-Banking REST API
+**Banking REST API**
 
-Overview:-This REST API, built with Spring Boot, Hibernate, and JPA, provides functionality for managing bank accounts and transactions. It allows for account creation, deletion, and handling deposits, withdrawals, and transfers.
+**Overview:-**
+This REST API, built with Spring Boot, Hibernate, and JPA, enables managing bank accounts and transactions. It supports account creation, deletion, deposits, withdrawals, and transfers.
 
-Features:- Create and delete accounts, with associated transaction history removed upon account deletion.
+**Features:-**
+Create and delete accounts, with transaction history automatically removed upon account deletion.
+Deposit and withdraw funds.
+Transfer funds between accounts.
 
--Deposit and withdraw funds.
+**Technologies:-**
+1)Spring Boot
+2)Hibernate
+3)JPA
 
--Transfer funds between accounts.
-
-Setup:-Clone the repository, build the project, and run the application. The API will be accessible locally.
-
-Technologies:-
-->Spring Boot
-->Hibernate
-->JPA
+Setup
+Clone the repository, build the project, and run the application. The API will be accessible locally.
