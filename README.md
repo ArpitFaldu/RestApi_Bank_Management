@@ -1,17 +1,33 @@
-**Banking REST API**
+# 💰 TransactFlow – Banking System Backend
 
-**Overview:-**
-This REST API, built with Spring Boot, Hibernate, and JPA, enables managing bank accounts and transactions. It supports account creation, deletion, deposits, withdrawals, and transfers.
+A **secure and scalable RESTful API** built with **Spring Boot**, **Hibernate**, and **JPA** to manage core banking operations such as account handling, deposits, withdrawals, and fund transfers. Designed with clean architecture and data integrity in mind, this backend system is ideal for digital banking platforms and fintech services.
 
-**Features:-**
-Create and delete accounts, with transaction history automatically removed upon account deletion.
-Deposit and withdraw funds.
-Transfer funds between accounts.
+---
 
-**Technologies:-**
-1)Spring Boot
-2)Hibernate
-3)JPA
+## 🧾 Overview
 
-Setup
-Clone the repository, build the project, and run the application. The API will be accessible locally.
+**TransactFlow** provides a robust API for handling essential banking features with automatic transaction cleanup, ensuring secure and consistent data handling.
+
+---
+
+## 🔑 Core Features
+
+- 🏦 **Account Management**  
+  Create and delete bank accounts with ease. Deletion triggers auto-removal of associated transaction history for a clean data model.
+
+- 💵 **Deposit & Withdrawal**  
+  Seamlessly deposit or withdraw funds from any valid account with proper validations.
+
+- 🔁 **Fund Transfer**  
+  Securely transfer money between accounts with transactional integrity and rollback support.
+
+---
+
+## 🧰 Tech Stack
+
+- **Framework:** Spring Boot  
+- **ORM:** Hibernate  
+- **Database Layer:** JPA (Java Persistence API)
+
+---
+
